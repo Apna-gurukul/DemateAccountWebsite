@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="/js/index.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <nav
+        class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md navbar-expand-xl  navbar-dark bg-dark fixed-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">TradingGuru</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Service
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Demat Account</a></li>
+                            <li><a class="dropdown-item" href="#">Option Trading</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Other</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid  px-4 py-6 mt-5 bg-dark ">
+        <div class="row align-items-center g-lg-5 py-5 ms-4 me-4">
+            <div class="col-lg-7 text-center text-lg-start ">
+                <h1 class="display-4 fw-bold lh-1 text-light mb-3 ">Welcome to Trading Guru Family</h1>
+                <p class="col-lg-10 fs-4 text-light">"It's not whether you're right or wrong that's important, but how
+                    much money you make when you're right and how much you lose when you're wrong." — George Soros</p>
+            </div>
+            <div class="col-md-10 mx-auto col-lg-4 ">
+                <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Full name">
+                        <label for="floatingPassword">Full name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Mobile No.">
+                        <label for="floatingPassword">Mobile No.</label>
+                    </div>
+
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                    <hr class="my-4">
+                    <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade mt-1 " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/image/trading-image-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Education</h5>
+                    <p>Education is the best way to earn money.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/image/trading-image-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/image/trading-image-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-2">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/image/demat-account-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Trading & Demat Ac Opening</h3>
+                        <ul>
+                            <li>We have Tie-Up with major Stock brokers in India.</li>
+                            <li>Open a Trading And demat Account with us and get many of Our Services in Free and
+                                Discounted
+                                Price.</li>
+                            <li>We have Tie-Up with"Zerodha,AngelOne,Swastika,Fyres,
+                                AliceBlue,MotilalOswal"</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/image/demat-account-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Buy Sell Signal Indicators</h3>
+                        <ul>
+                            <li>We are Providing Buy Sell Indicators on Trading View Plateform.</li>
+                            <li>Using our Premium indicators you can easily Guess market Trend and can take wise
+                                decisons for Profitable Trading.</li>
+                            <li>After purchasing Our Indicators you will get Proper training to utilise it.</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/image/demat-account-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Stock Market Education And Training</h3>
+                        <ul>
+                            <li>We are Providing Stock Market Training Based on our Own Experiance of 12 Years in
+                                Market.</li>
+                            <li>After Our Training Cources you may able to judge market direction and able to take right
+                                trading decisions</li>
+                            <li>We have also provide the full Cource of option chain analysis.</li>
+                            <li>We have better explain the greeks of option chain</li>
+                            <li>The greeks are a set of four theoretical values that discribe and option's risk
+                                parameters.</li>
+                            <ol>
+                                <li>Delta</li>
+                                <li>Gamma</li>
+                                <li>Theta</li>
+                                <li>Vega</li>
+                            </ol>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-flude bg-danger mt-4 text-light py-2 mx-5">
+        <h4>
+            <marquee behavior="" direction="left">We are the best institute for proving trading knowledge.</marquee>
+        </h4>
+    </div>
+
+
+
+    <div class="container mt-4 text-center">
+
+        <h1 class="fw-bold ">Market Watch</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container" style="height:100%;width:100%">
+                        <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%">
+                        </div>
+                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/"
+                                rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on
+                                    TradingView</span></a></div>
+                        <script type="text/javascript"
+                            src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                                {
+                                    "container_id": "analytics-platform-chart-demo",
+                                        "width": "100%",
+                                            "height": "100%",
+                                                "autosize": true,
+                                                    "symbol": "NASDAQ:AAPL",
+                                                        "interval": "D",
+                                                            "timezone": "exchange",
+                                                                "theme": "light",
+                                                                    "style": "0",
+                                                                        "withdateranges": true,
+                                                                            "allow_symbol_change": true,
+                                                                                "save_image": false,
+                                                                                    "details": true,
+                                                                                        "hotlist": true,
+                                                                                            "calendar": false
+                                }
+                            </script>
+                    </div>
+                    <!-- TradingView Widget END -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-70">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container  mt-2 mx-2">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/"
+                                rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on
+                                    TradingView</span></a></div>
+                        <script type="text/javascript"
+                            src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+                                {
+                                    "colorTheme": "light",
+                                        "dateRange": "12M",
+                                            "exchange": "US",
+                                                "showChart": true,
+                                                    "locale": "en",
+                                                        "largeChartUrl": "",
+                                                            "isTransparent": false,
+                                                                "showSymbolLogo": false,
+                                                                    "showFloatingTooltip": false,
+                                                                        "width": "400",
+                                                                            "height": "550",
+                                                                                "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                                                                                    "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                                                                                        "gridLineColor": "rgba(240, 243, 250, 0)",
+                                                                                            "scaleFontColor": "rgba(106, 109, 120, 1)",
+                                                                                                "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                                                                                                    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                                                                                                        "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                                                                                                            "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                                                                                                                "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+                                }
+                            </script>
+                    </div>
+                    <!-- TradingView Widget END -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-70">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container mt-2 mx-2">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/"
+                                rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on
+                                    TradingView</span></a></div>
+                        <script type="text/javascript"
+                            src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                                {
+                                    "colorTheme": "light",
+                                        "dateRange": "12M",
+                                            "showChart": true,
+                                                "locale": "en",
+                                                    "largeChartUrl": "",
+                                                        "isTransparent": false,
+                                                            "showSymbolLogo": true,
+                                                                "showFloatingTooltip": false,
+                                                                    "width": "400",
+                                                                        "height": "550",
+                                                                            "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                                                                                "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                                                                                    "gridLineColor": "rgba(240, 243, 250, 0)",
+                                                                                        "scaleFontColor": "rgba(106, 109, 120, 1)",
+                                                                                            "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                                                                                                "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                                                                                                    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                                                                                                        "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                                                                                                            "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                                                                                                                "tabs": [
+                                                                                                                    {
+                                                                                                                        "title": "Indices",
+                                                                                                                        "symbols": [
+                                                                                                                            {
+                                                                                                                                "s": "FOREXCOM:SPXUSD",
+                                                                                                                                "d": "S&P 500 Index"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "FOREXCOM:NSXUSD",
+                                                                                                                                "d": "US 100 Cash CFD"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "FOREXCOM:DJI",
+                                                                                                                                "d": "Dow Jones Industrial Average Index"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "INDEX:NKY",
+                                                                                                                                "d": "Nikkei 225"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "INDEX:DEU40",
+                                                                                                                                "d": "DAX Index"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "FOREXCOM:UKXGBP",
+                                                                                                                                "d": "FTSE 100 Index"
+                                                                                                                            }
+                                                                                                                        ],
+                                                                                                                        "originalTitle": "Indices"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "title": "Futures",
+                                                                                                                        "symbols": [
+                                                                                                                            {
+                                                                                                                                "s": "CME_MINI:ES1!",
+                                                                                                                                "d": "S&P 500"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "CME:6E1!",
+                                                                                                                                "d": "Euro"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "COMEX:GC1!",
+                                                                                                                                "d": "Gold"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "NYMEX:CL1!",
+                                                                                                                                "d": "WTI Crude Oil"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "NYMEX:NG1!",
+                                                                                                                                "d": "Gas"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "CBOT:ZC1!",
+                                                                                                                                "d": "Corn"
+                                                                                                                            }
+                                                                                                                        ],
+                                                                                                                        "originalTitle": "Futures"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "title": "Bonds",
+                                                                                                                        "symbols": [
+                                                                                                                            {
+                                                                                                                                "s": "CBOT:ZB1!",
+                                                                                                                                "d": "T-Bond"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "CBOT:UB1!",
+                                                                                                                                "d": "Ultra T-Bond"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "EUREX:FGBL1!",
+                                                                                                                                "d": "Euro Bund"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "EUREX:FBTP1!",
+                                                                                                                                "d": "Euro BTP"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "EUREX:FGBM1!",
+                                                                                                                                "d": "Euro BOBL"
+                                                                                                                            }
+                                                                                                                        ],
+                                                                                                                        "originalTitle": "Bonds"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "title": "Forex",
+                                                                                                                        "symbols": [
+                                                                                                                            {
+                                                                                                                                "s": "FX:EURUSD",
+                                                                                                                                "d": "EUR to USD"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "FX:GBPUSD",
+                                                                                                                                "d": "GBP to USD"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "FX:USDJPY",
+                                                                                                                                "d": "USD to JPY"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "FX:USDCHF",
+                                                                                                                                "d": "USD to CHF"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "FX:AUDUSD",
+                                                                                                                                "d": "AUD to USD"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "s": "FX:USDCAD",
+                                                                                                                                "d": "USD to CAD"
+                                                                                                                            }
+                                                                                                                        ],
+                                                                                                                        "originalTitle": "Forex"
+                                                                                                                    }
+                                                                                                                ]
+                                }
+                            </script>
+                    </div>
+                    <!-- TradingView Widget END -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container  mt-4 border ">
+
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container mt-4 ">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+                    target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+            <script type="text/javascript"
+                src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
+                        "symbols": [
+                            {
+                                "proName": "FOREXCOM:SPXUSD",
+                                "title": "S&P 500 Index"
+                            },
+                            {
+                                "proName": "FOREXCOM:NSXUSD",
+                                "title": "US 100 Cash CFD"
+                            },
+                            {
+                                "proName": "FX_IDC:EURUSD",
+                                "title": "EUR to USD"
+                            },
+                            {
+                                "proName": "BITSTAMP:BTCUSD",
+                                "title": "Bitcoin"
+                            },
+                            {
+                                "proName": "BITSTAMP:ETHUSD",
+                                "title": "Ethereum"
+                            }
+                        ],
+                            "showSymbolLogo": true,
+                                "isTransparent": false,
+                                    "displayMode": "adaptive",
+                                        "colorTheme": "light",
+                                            "locale": "en"
+                    }
+                </script>
+        </div>
+        <!-- TradingView Widget END -->
+
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container my-2">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+                    target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js"
+                async>
+                    {
+                        "symbols": [
+                            {
+                                "proName": "FOREXCOM:SPXUSD",
+                                "title": "S&P 500 Index"
+                            },
+                            {
+                                "proName": "FOREXCOM:NSXUSD",
+                                "title": "US 100 Cash CFD"
+                            },
+                            {
+                                "proName": "FX_IDC:EURUSD",
+                                "title": "EUR to USD"
+                            },
+                            {
+                                "proName": "BITSTAMP:BTCUSD",
+                                "title": "Bitcoin"
+                            },
+                            {
+                                "proName": "BITSTAMP:ETHUSD",
+                                "title": "Ethereum"
+                            }
+                        ],
+                            "isTransparent": false,
+                                "showSymbolLogo": true,
+                                    "colorTheme": "light",
+                                        "locale": "en"
+                    }
+                </script>
+        </div>
+        <!-- TradingView Widget END -->
+
+    </div>
+
+    <div class="container-flude bg-danger mt-4 text-light py-2 mx-5">
+        <h4>
+            <marquee behavior="" direction="left">We are the best institute for proving trading knowledge.</marquee>
+        </h4>
+    </div>
+
+    <div class="container bg-dark mt-4">
+
+        <h1 class="text-light text-center pt-3">What we do?</h1>
+
+        <div class="row">
+            <div class="col-sm-6 text-light text-end">
+                <h2 class="mt-2 fw-bold ">Open your free</h2>
+            </div>
+            <div class="container text-start col-sm-6">
+                <h1>
+                    <a href="" class="typewrite text-light" data-period="2000"
+                        data-type='[ "demate", "account", "now" ]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>
+            </div>
+        </div>
+
+        <div class="container border-2 border-bottom my-5"></div>
+
+        <div class="container bg-dark">
+            <h5 class="text-light text-center">DOCUMENT FOR ACCOUNT OPENING</h5>
+        </div>
+
+
+    </div>
+
+
+    <div class="container-flude bg-dark mt-5">
+        <footer class="pt-4">
+            <div class="row px-5">
+                <div class="col-xl-4 col-md-2 mb-3 text-light">
+                    <h5>Our Policies</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Terms & Conditions</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Privacy Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Disclaimer</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-xl-4 col-md-2 mb-3 text-light">
+                    <h5>Company</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Service</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Contact us</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-xl-4 col-md-2 mb-3 text-light">
+                    <h5>Contact</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">Delhi | Varanasi | Patna |</li>
+                        <li class="nav-item mb-2"></li>
+                        <li class="nav-item mb-2"></li>
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="d-flex flex-row flex-sm-row justify-content-center pt-2 border-top">
+                <p class="text-light">© 2024 TradingGuru, Pvt Ltd. All rights reserved.</p>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
